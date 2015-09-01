@@ -12,20 +12,24 @@
 	<dict>
 		<key>36AF0E08EB72186054FD909FBF75C109A713A082</key>
 		<string>https://git.oschina.net/yy1123/LazyCloset.git</string>
+		<key>BDAA46C16AB1BAC0C75BF411D53EF173B138CC10</key>
+		<string>https://github.com/wuyiyun717/OCNController.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DemoOPM/DemoOPM.xcodeproj</string>
+	<string>DemoOPMHome/DemoOPM.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>36AF0E08EB72186054FD909FBF75C109A713A082</key>
+		<string>../../../..</string>
+		<key>BDAA46C16AB1BAC0C75BF411D53EF173B138CC10</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://git.oschina.net/yy1123/LazyCloset.git</string>
+	<string>https://github.com/wuyiyun717/OCNController.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>36AF0E08EB72186054FD909FBF75C109A713A082</string>
+	<string>BDAA46C16AB1BAC0C75BF411D53EF173B138CC10</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>36AF0E08EB72186054FD909FBF75C109A713A082</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Project1</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BDAA46C16AB1BAC0C75BF411D53EF173B138CC10</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OCNController</string>
 		</dict>
 	</array>
 </dict>

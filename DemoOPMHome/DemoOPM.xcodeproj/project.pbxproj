@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A4E2F741B833083006F4E73 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E2F711B833083006F4E73 /* CycleScrollView.m */; };
 		1A4E2F751B833083006F4E73 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E2F731B833083006F4E73 /* NSTimer+Addition.m */; };
+		1A53C2801B956D3C0035DB86 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53C27F1B956D3C0035DB86 /* CryptoSwift.framework */; };
 		1A615F711B8ADE65001B28D2 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A615F701B8ADE65001B28D2 /* CollectionViewController.swift */; };
 		1A67215F1B8448980071E7F8 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A67215D1B8448980071E7F8 /* 1.png */; };
 		1A6721601B8448980071E7F8 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A67215E1B8448980071E7F8 /* 2.png */; };
@@ -17,7 +18,6 @@
 		1A6721681B849D9F0071E7F8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6721671B849D9F0071E7F8 /* AVFoundation.framework */; };
 		1A7451B51B8D5E0400386BF3 /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7451B41B8D5E0400386BF3 /* HeaderViewCell.swift */; };
 		1A7451B71B8D694200386BF3 /* DanmuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7451B61B8D694200386BF3 /* DanmuViewController.swift */; };
-		1A7452221B8DBB3C00386BF3 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7452211B8DBB3C00386BF3 /* CryptoSwift.framework */; };
 		1A86520D1B7D92DB0032B1C7 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A86520C1B7D92DB0032B1C7 /* TabOneViewController.swift */; };
 		1A8652111B7D932B0032B1C7 /* EntendOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8652101B7D932B0032B1C7 /* EntendOneViewController.swift */; };
 		1A8652131B7DCD6F0032B1C7 /* ExtendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8652121B7DCD6F0032B1C7 /* ExtendViewController.swift */; };
@@ -30,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1A53C2871B956E3B0035DB86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A53C2811B956E3B0035DB86 /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE45519693E190098E6F3;
+			remoteInfo = CryptoSwift;
+		};
+		1A53C2891B956E3B0035DB86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A53C2811B956E3B0035DB86 /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE46019693E190098E6F3;
+			remoteInfo = CryptoSwiftTests;
+		};
 		1AE67B991B7B4052003B7B67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1AE67B7B1B7B4052003B7B67 /* Project object */;
@@ -45,6 +59,8 @@
 		1A4E2F711B833083006F4E73 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
 		1A4E2F721B833083006F4E73 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
 		1A4E2F731B833083006F4E73 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		1A53C27F1B956D3C0035DB86 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = "<group>"; };
+		1A53C2811B956E3B0035DB86 /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = "CryptoSwift-master/CryptoSwift.xcodeproj"; sourceTree = "<group>"; };
 		1A615F701B8ADE65001B28D2 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		1A67215D1B8448980071E7F8 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		1A67215E1B8448980071E7F8 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
@@ -53,7 +69,6 @@
 		1A6721671B849D9F0071E7F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1A7451B41B8D5E0400386BF3 /* HeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
 		1A7451B61B8D694200386BF3 /* DanmuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DanmuViewController.swift; sourceTree = "<group>"; };
-		1A7452211B8DBB3C00386BF3 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = "<group>"; };
 		1A86520C1B7D92DB0032B1C7 /* TabOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
 		1A8652101B7D932B0032B1C7 /* EntendOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntendOneViewController.swift; path = ../EntendOneViewController.swift; sourceTree = "<group>"; };
 		1A8652121B7DCD6F0032B1C7 /* ExtendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendViewController.swift; sourceTree = "<group>"; };
@@ -74,10 +89,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A53C2801B956D3C0035DB86 /* CryptoSwift.framework in Frameworks */,
 				1A6721681B849D9F0071E7F8 /* AVFoundation.framework in Frameworks */,
 				1A6721661B849D840071E7F8 /* AudioToolbox.framework in Frameworks */,
 				1A6721641B8499850071E7F8 /* MediaPlayer.framework in Frameworks */,
-				1A7452221B8DBB3C00386BF3 /* CryptoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +117,20 @@
 			name = CycleScreen;
 			sourceTree = "<group>";
 		};
+		1A53C2821B956E3B0035DB86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A53C2881B956E3B0035DB86 /* CryptoSwift.framework */,
+				1A53C28A1B956E3B0035DB86 /* CryptoSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1AE67B7A1B7B4052003B7B67 = {
 			isa = PBXGroup;
 			children = (
-				1A7452211B8DBB3C00386BF3 /* CryptoSwift.framework */,
+				1A53C2811B956E3B0035DB86 /* CryptoSwift.xcodeproj */,
+				1A53C27F1B956D3C0035DB86 /* CryptoSwift.framework */,
 				1A6721671B849D9F0071E7F8 /* AVFoundation.framework */,
 				1A6721651B849D840071E7F8 /* AudioToolbox.framework */,
 				1A6721631B8499850071E7F8 /* MediaPlayer.framework */,
@@ -239,6 +264,12 @@
 			mainGroup = 1AE67B7A1B7B4052003B7B67;
 			productRefGroup = 1AE67B841B7B4052003B7B67 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1A53C2821B956E3B0035DB86 /* Products */;
+					ProjectRef = 1A53C2811B956E3B0035DB86 /* CryptoSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1AE67B821B7B4052003B7B67 /* DemoOPM */,
@@ -246,6 +277,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1A53C2881B956E3B0035DB86 /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = 1A53C2871B956E3B0035DB86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A53C28A1B956E3B0035DB86 /* CryptoSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CryptoSwiftTests.xctest;
+			remoteRef = 1A53C2891B956E3B0035DB86 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1AE67B811B7B4052003B7B67 /* Resources */ = {
