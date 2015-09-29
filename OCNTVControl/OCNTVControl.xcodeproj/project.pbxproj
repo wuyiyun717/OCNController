@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A73284B1BBA8B4300C4F3C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73284A1BBA8B4300C4F3C2 /* AppDelegate.swift */; };
+		1A73284D1BBA8B4300C4F3C2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73284C1BBA8B4300C4F3C2 /* FirstViewController.swift */; };
+		1A73284F1BBA8B4300C4F3C2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73284E1BBA8B4300C4F3C2 /* SecondViewController.swift */; };
+		1A7328521BBA8B4300C4F3C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328501BBA8B4300C4F3C2 /* Main.storyboard */; };
+		1A7328541BBA8B4300C4F3C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328531BBA8B4300C4F3C2 /* Assets.xcassets */; };
+		1A7328571BBA8B4300C4F3C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328551BBA8B4300C4F3C2 /* LaunchScreen.storyboard */; };
+		1A7328621BBA8B4300C4F3C2 /* OCNTVControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7328611BBA8B4300C4F3C2 /* OCNTVControlTests.swift */; };
+		1A73286D1BBA8B4300C4F3C2 /* OCNTVControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73286C1BBA8B4300C4F3C2 /* OCNTVControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A73285E1BBA8B4300C4F3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A73283F1BBA8B4300C4F3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7328461BBA8B4300C4F3C2;
+			remoteInfo = OCNTVControl;
+		};
+		1A7328691BBA8B4300C4F3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A73283F1BBA8B4300C4F3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7328461BBA8B4300C4F3C2;
+			remoteInfo = OCNTVControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A7328471BBA8B4300C4F3C2 /* OCNTVControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCNTVControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A73284A1BBA8B4300C4F3C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A73284C1BBA8B4300C4F3C2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1A73284E1BBA8B4300C4F3C2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1A7328511BBA8B4300C4F3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A7328531BBA8B4300C4F3C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A7328561BBA8B4300C4F3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A7328581BBA8B4300C4F3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A73285D1BBA8B4300C4F3C2 /* OCNTVControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCNTVControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7328611BBA8B4300C4F3C2 /* OCNTVControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCNTVControlTests.swift; sourceTree = "<group>"; };
+		1A7328631BBA8B4300C4F3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7328681BBA8B4300C4F3C2 /* OCNTVControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCNTVControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A73286C1BBA8B4300C4F3C2 /* OCNTVControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCNTVControlUITests.swift; sourceTree = "<group>"; };
+		1A73286E1BBA8B4300C4F3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A7328441BBA8B4300C4F3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A73285A1BBA8B4300C4F3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7328651BBA8B4300C4F3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A73283E1BBA8B4300C4F3C2 = {
+			isa = PBXGroup;
+			children = (
+				1A7328491BBA8B4300C4F3C2 /* OCNTVControl */,
+				1A7328601BBA8B4300C4F3C2 /* OCNTVControlTests */,
+				1A73286B1BBA8B4300C4F3C2 /* OCNTVControlUITests */,
+				1A7328481BBA8B4300C4F3C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A7328481BBA8B4300C4F3C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A7328471BBA8B4300C4F3C2 /* OCNTVControl.app */,
+				1A73285D1BBA8B4300C4F3C2 /* OCNTVControlTests.xctest */,
+				1A7328681BBA8B4300C4F3C2 /* OCNTVControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A7328491BBA8B4300C4F3C2 /* OCNTVControl */ = {
+			isa = PBXGroup;
+			children = (
+				1A73284A1BBA8B4300C4F3C2 /* AppDelegate.swift */,
+				1A73284C1BBA8B4300C4F3C2 /* FirstViewController.swift */,
+				1A73284E1BBA8B4300C4F3C2 /* SecondViewController.swift */,
+				1A7328501BBA8B4300C4F3C2 /* Main.storyboard */,
+				1A7328531BBA8B4300C4F3C2 /* Assets.xcassets */,
+				1A7328551BBA8B4300C4F3C2 /* LaunchScreen.storyboard */,
+				1A7328581BBA8B4300C4F3C2 /* Info.plist */,
+			);
+			path = OCNTVControl;
+			sourceTree = "<group>";
+		};
+		1A7328601BBA8B4300C4F3C2 /* OCNTVControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7328611BBA8B4300C4F3C2 /* OCNTVControlTests.swift */,
+				1A7328631BBA8B4300C4F3C2 /* Info.plist */,
+			);
+			path = OCNTVControlTests;
+			sourceTree = "<group>";
+		};
+		1A73286B1BBA8B4300C4F3C2 /* OCNTVControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A73286C1BBA8B4300C4F3C2 /* OCNTVControlUITests.swift */,
+				1A73286E1BBA8B4300C4F3C2 /* Info.plist */,
+			);
+			path = OCNTVControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A7328461BBA8B4300C4F3C2 /* OCNTVControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7328711BBA8B4300C4F3C2 /* Build configuration list for PBXNativeTarget "OCNTVControl" */;
+			buildPhases = (
+				1A7328431BBA8B4300C4F3C2 /* Sources */,
+				1A7328441BBA8B4300C4F3C2 /* Frameworks */,
+				1A7328451BBA8B4300C4F3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCNTVControl;
+			productName = OCNTVControl;
+			productReference = 1A7328471BBA8B4300C4F3C2 /* OCNTVControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A73285C1BBA8B4300C4F3C2 /* OCNTVControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7328741BBA8B4300C4F3C2 /* Build configuration list for PBXNativeTarget "OCNTVControlTests" */;
+			buildPhases = (
+				1A7328591BBA8B4300C4F3C2 /* Sources */,
+				1A73285A1BBA8B4300C4F3C2 /* Frameworks */,
+				1A73285B1BBA8B4300C4F3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A73285F1BBA8B4300C4F3C2 /* PBXTargetDependency */,
+			);
+			name = OCNTVControlTests;
+			productName = OCNTVControlTests;
+			productReference = 1A73285D1BBA8B4300C4F3C2 /* OCNTVControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A7328671BBA8B4300C4F3C2 /* OCNTVControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7328771BBA8B4300C4F3C2 /* Build configuration list for PBXNativeTarget "OCNTVControlUITests" */;
+			buildPhases = (
+				1A7328641BBA8B4300C4F3C2 /* Sources */,
+				1A7328651BBA8B4300C4F3C2 /* Frameworks */,
+				1A7328661BBA8B4300C4F3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A73286A1BBA8B4300C4F3C2 /* PBXTargetDependency */,
+			);
+			name = OCNTVControlUITests;
+			productName = OCNTVControlUITests;
+			productReference = 1A7328681BBA8B4300C4F3C2 /* OCNTVControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A73283F1BBA8B4300C4F3C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = OCN;
+				TargetAttributes = {
+					1A7328461BBA8B4300C4F3C2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1A73285C1BBA8B4300C4F3C2 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1A7328461BBA8B4300C4F3C2;
+					};
+					1A7328671BBA8B4300C4F3C2 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1A7328461BBA8B4300C4F3C2;
+					};
+				};
+			};
+			buildConfigurationList = 1A7328421BBA8B4300C4F3C2 /* Build configuration list for PBXProject "OCNTVControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A73283E1BBA8B4300C4F3C2;
+			productRefGroup = 1A7328481BBA8B4300C4F3C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A7328461BBA8B4300C4F3C2 /* OCNTVControl */,
+				1A73285C1BBA8B4300C4F3C2 /* OCNTVControlTests */,
+				1A7328671BBA8B4300C4F3C2 /* OCNTVControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A7328451BBA8B4300C4F3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7328571BBA8B4300C4F3C2 /* LaunchScreen.storyboard in Resources */,
+				1A7328541BBA8B4300C4F3C2 /* Assets.xcassets in Resources */,
+				1A7328521BBA8B4300C4F3C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A73285B1BBA8B4300C4F3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7328661BBA8B4300C4F3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7328431BBA8B4300C4F3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A73284F1BBA8B4300C4F3C2 /* SecondViewController.swift in Sources */,
+				1A73284B1BBA8B4300C4F3C2 /* AppDelegate.swift in Sources */,
+				1A73284D1BBA8B4300C4F3C2 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7328591BBA8B4300C4F3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7328621BBA8B4300C4F3C2 /* OCNTVControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7328641BBA8B4300C4F3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A73286D1BBA8B4300C4F3C2 /* OCNTVControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A73285F1BBA8B4300C4F3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7328461BBA8B4300C4F3C2 /* OCNTVControl */;
+			targetProxy = 1A73285E1BBA8B4300C4F3C2 /* PBXContainerItemProxy */;
+		};
+		1A73286A1BBA8B4300C4F3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7328461BBA8B4300C4F3C2 /* OCNTVControl */;
+			targetProxy = 1A7328691BBA8B4300C4F3C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A7328501BBA8B4300C4F3C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A7328511BBA8B4300C4F3C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A7328551BBA8B4300C4F3C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A7328561BBA8B4300C4F3C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A73286F1BBA8B4300C4F3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A7328701BBA8B4300C4F3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A7328721BBA8B4300C4F3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OCNTVControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OCN.OCNTVControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A7328731BBA8B4300C4F3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OCNTVControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OCN.OCNTVControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A7328751BBA8B4300C4F3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OCNTVControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OCN.OCNTVControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCNTVControl.app/OCNTVControl";
+			};
+			name = Debug;
+		};
+		1A7328761BBA8B4300C4F3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OCNTVControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OCN.OCNTVControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCNTVControl.app/OCNTVControl";
+			};
+			name = Release;
+		};
+		1A7328781BBA8B4300C4F3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OCNTVControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OCN.OCNTVControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCNTVControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1A7328791BBA8B4300C4F3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OCNTVControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OCN.OCNTVControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCNTVControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A7328421BBA8B4300C4F3C2 /* Build configuration list for PBXProject "OCNTVControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A73286F1BBA8B4300C4F3C2 /* Debug */,
+				1A7328701BBA8B4300C4F3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7328711BBA8B4300C4F3C2 /* Build configuration list for PBXNativeTarget "OCNTVControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7328721BBA8B4300C4F3C2 /* Debug */,
+				1A7328731BBA8B4300C4F3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A7328741BBA8B4300C4F3C2 /* Build configuration list for PBXNativeTarget "OCNTVControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7328751BBA8B4300C4F3C2 /* Debug */,
+				1A7328761BBA8B4300C4F3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A7328771BBA8B4300C4F3C2 /* Build configuration list for PBXNativeTarget "OCNTVControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7328781BBA8B4300C4F3C2 /* Debug */,
+				1A7328791BBA8B4300C4F3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A73283F1BBA8B4300C4F3C2 /* Project object */;
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BDAA46C16AB1BAC0C75BF411D53EF173B138CC10",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BDAA46C16AB1BAC0C75BF411D53EF173B138CC10" : 0,
+    "36AF0E08EB72186054FD909FBF75C109A713A082" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "359A7046-C4B4-42A1-944D-EBC87A7E9E48",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BDAA46C16AB1BAC0C75BF411D53EF173B138CC10" : "OCNController",
+    "36AF0E08EB72186054FD909FBF75C109A713A082" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DemoOPM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DemoOPMHome\/DemoOPM.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/yy1123\/LazyCloset.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "36AF0E08EB72186054FD909FBF75C109A713A082"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wuyiyun717\/OCNController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BDAA46C16AB1BAC0C75BF411D53EF173B138CC10"
+    }
+  ]
+}

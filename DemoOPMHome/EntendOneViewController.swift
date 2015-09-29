@@ -12,7 +12,7 @@ class EntendOneViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        println(global)
+        print(global, terminator: "")
         global = "hello3"
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "返回", style: UIBarButtonItemStyle.Plain, target: self, action: "goback:")
         self.view.backgroundColor = UIColor.grayColor()
@@ -31,8 +31,8 @@ class EntendOneViewController: UIViewController {
     }
     
     @IBAction func toNext(sender:AnyObject?){
-        var storyboard = UIStoryboard(name: "Main", bundle: nil)
-        var next:UIViewController = storyboard.instantiateViewControllerWithIdentifier("ExtendView") as! UIViewController
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let next:UIViewController = storyboard.instantiateViewControllerWithIdentifier("ExtendView") 
         //var next = EntendOneViewController()
         //self.navigationController?.navigationBar.backItem?.title = "返回"
         next.hidesBottomBarWhenPushed = true

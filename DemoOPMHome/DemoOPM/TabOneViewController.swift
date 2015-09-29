@@ -12,7 +12,7 @@ class TabOneViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        println(global)
+        print(global, terminator: "")
         global = "hello2"
         self.tabBarController?.tabBar.hidden = false
         // Do any additional setup after loading the view, typically from a nib.
@@ -24,8 +24,8 @@ class TabOneViewController: UIViewController {
     }
     
     @IBAction func toNext(sender: AnyObject?) {
-        var storyboard = UIStoryboard(name: "Main", bundle: nil)
-        var next:UIViewController = storyboard.instantiateViewControllerWithIdentifier("NextView") as! UIViewController
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let next:UIViewController = storyboard.instantiateViewControllerWithIdentifier("NextView") 
         //var next = EntendOneViewController()
         self.navigationController?.navigationItem.backBarButtonItem?.title = "返回"
         self.navigationController?.pushViewController(next, animated: true)

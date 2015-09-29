@@ -4,3 +4,6 @@
 
 #import "CycleScrollView.h"
 #import "NSTimer+Addition.h"
+//#import <CommonCrypto/CommonDigest.h>
+//#import <CommonCrypto/CommonHMAC.h>
+#import "CardIO.h"

@@ -21,28 +21,28 @@ class ExtendViewController: UIViewController, UIScrollViewDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        println(global)
+        print(global, terminator: "")
         global = "hello4"
-        println(global)
+        print(global, terminator: "")
         //pageControl.enabled = false
         pageControl.addTarget(self, action: "changePage:", forControlEvents: UIControlEvents.ValueChanged)
         timer = NSTimer(timeInterval: 3, target: self, selector: "changePageByTime:", userInfo: nil, repeats: true)
         NSRunLoop.currentRunLoop().addTimer(timer, forMode: NSRunLoopCommonModes)
         
         let audioSession = AVAudioSession.sharedInstance()
-        var volume = audioSession.outputVolume
-        println("volume\(volume)")
-        var MPView = MPVolumeView.new()
-        var volumeSlider = UISlider()
-        
-        for views in MPView.subviews{
-            if views.description.hasPrefix("<MPVolumeSlider") {
-                volumeSlider = views as! UISlider
-            }
-        }
-        var val = volumeSlider.value
-        
-        println("vol\(val)")
+        let volume = audioSession.outputVolume
+        print("volume\(volume)", terminator: "")
+//        let MPView = MPVolumeView.new()
+//        var volumeSlider = UISlider()
+//        
+//        for views in MPView.subviews{
+//            if views.description.hasPrefix("<MPVolumeSlider") {
+//                volumeSlider = views as! UISlider
+//            }
+//        }
+//        let val = volumeSlider.value
+//        
+//        print("vol\(val)", terminator: "")
 //        }
 
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "volumeChanged:", name: "AVSystemController_SystemVolumeDidChangeNotification", object: nil)
@@ -75,32 +75,32 @@ class ExtendViewController: UIViewController, UIScrollViewDelegate{
 //    }
     func volumeChanged(notification:NSNotification){
         
-        var MPView = MPVolumeView.new()
-        
-        var volumeSlider = UISlider()
-        for views in MPView.subviews{
-            if views.description.hasPrefix("<MPVolumeSlider") {
-                volumeSlider = views as! UISlider
-            }
-        }
-        //volumeSlider.setValue(0.5, animated: true)
-        var outputvolume = volumeSlider.value
-        //        let audioSession = AVAudioSession.sharedInstance()
-        //        var outputvolume = audioSession.outputVolume
-        
-        //var volume = (notification.userInfo as? NSDictionary)
-        var volume = (notification.userInfo as! NSDictionary).objectForKey("AVSystemController_AudioVolumeNotificationParameter")?.floatValue
-        
-        var addView:UIAlertController = UIAlertController(title: "\(outputvolume)", message: "\(volume!)", preferredStyle:.Alert)
-        let actionOK = UIAlertAction(title:"OK", style:.Default) { action in
-        }
-        addView.addAction(actionOK)
-        dispatch_async(dispatch_get_main_queue()) {
-            self.presentViewController(addView, animated: true, completion: nil)
-        }
-        
-        //volumeSlider.setValue(volume!, animated: false)
-        MPVolumeSettingsAlertHide()
+//        let MPView = MPVolumeView.new()
+//        
+//        var volumeSlider = UISlider()
+//        for views in MPView.subviews{
+//            if views.description.hasPrefix("<MPVolumeSlider") {
+//                volumeSlider = views as! UISlider
+//            }
+//        }
+//        //volumeSlider.setValue(0.5, animated: true)
+//        let outputvolume = volumeSlider.value
+//        //        let audioSession = AVAudioSession.sharedInstance()
+//        //        var outputvolume = audioSession.outputVolume
+//        
+//        //var volume = (notification.userInfo as? NSDictionary)
+//        let volume = (notification.userInfo as! NSDictionary).objectForKey("AVSystemController_AudioVolumeNotificationParameter")?.floatValue
+//        
+//        let addView:UIAlertController = UIAlertController(title: "\(outputvolume)", message: "\(volume!)", preferredStyle:.Alert)
+//        let actionOK = UIAlertAction(title:"OK", style:.Default) { action in
+//        }
+//        addView.addAction(actionOK)
+//        dispatch_async(dispatch_get_main_queue()) {
+//            self.presentViewController(addView, animated: true, completion: nil)
+//        }
+//        
+//        //volumeSlider.setValue(volume!, animated: false)
+//        MPVolumeSettingsAlertHide()
     }
 
     override func viewDidAppear(animated: Bool) {
@@ -109,7 +109,7 @@ class ExtendViewController: UIViewController, UIScrollViewDelegate{
         self.view.addSubview(upperView)
         
         width = UIScreen.mainScreen().applicationFrame.width - 32
-        println(width)
+        print(width, terminator: "")
         hight = scrollView.bounds.size.height
         scrollView.delegate = self
         for (var i=1; i<3; i++) {
@@ -118,10 +118,10 @@ class ExtendViewController: UIViewController, UIScrollViewDelegate{
                 fileName = "\(i).png"
             }
             //var subView = UIImageView(image: UIImage(named: fileName as String))
-            var subView = UIView()
-            var newWidth = width * CGFloat(i - 1)
+            let subView = UIView()
+            let newWidth = width * CGFloat(i - 1)
             subView.frame = CGRect(x: newWidth, y: 0, width: width, height: hight)
-            var button = UIButton(frame: CGRectMake(50 + newWidth, 50, 50, 50))
+            let button = UIButton(frame: CGRectMake(50 + newWidth, 50, 50, 50))
             if i == 1 {
                 subView.backgroundColor = UIColor.purpleColor()
                 button.backgroundColor = UIColor.blueColor()
@@ -176,7 +176,7 @@ class ExtendViewController: UIViewController, UIScrollViewDelegate{
     }
     
     func scrollViewDidEndDecelerating(scrollView:UIScrollView) {
-        var index = scrollView.contentOffset.x/width
+        let index = scrollView.contentOffset.x/width
         //pageControl(setCurrentPage:index)
         pageControl.currentPage = Int(index)
         timer.resumeTimerAfterTimeInterval(3.0)
@@ -214,8 +214,8 @@ class ExtendViewController: UIViewController, UIScrollViewDelegate{
         }
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        var touch = (touches as NSSet).anyObject()?.locationInView(upperView)
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        let touch = (touches as NSSet).anyObject()?.locationInView(upperView)
         //println(touch!.indexOf(1))
         if(touch?.x > 0 && touch?.y > 0 && touch?.x < upperView.bounds.width && touch?.y < upperView.bounds.height){
             //println("In")

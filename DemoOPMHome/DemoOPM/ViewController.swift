@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        println(global)
+        print(global, terminator: "")
         global = "hello"
         // Do any additional setup after loading the view, typically from a nib.
     }

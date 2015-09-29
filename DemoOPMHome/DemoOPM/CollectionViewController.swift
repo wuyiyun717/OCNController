@@ -12,7 +12,7 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        println(global)
+        print(global, terminator: "")
         global = "hello2"
         self.tabBarController?.tabBar.hidden = false
         collectionView.delegate = self
@@ -44,8 +44,8 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
 //            reuseIdentifier = 
 //        }
         var reuseableView = UICollectionReusableView(frame: CGRectMake(0, 0, 100, 50))
-        reuseableView = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "header", forIndexPath: indexPath) as! UICollectionReusableView
-        var label = UILabel(frame: CGRectMake(0, 0, 100, 50))
+        reuseableView = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "header", forIndexPath: indexPath) 
+        let label = UILabel(frame: CGRectMake(0, 0, 100, 50))
         label.text = "Header"
         reuseableView.addSubview(label)
         return reuseableView
@@ -60,7 +60,7 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
     }
     
     func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
-        println("Selected")
+        print("Selected", terminator: "")
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
@@ -69,7 +69,7 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        var width = (UIScreen.mainScreen().applicationFrame.width - 4) / 5
+        let width = (UIScreen.mainScreen().applicationFrame.width - 4) / 5
         return CGSizeMake(width, width)
     }
     
@@ -82,7 +82,7 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
         return 6
     }
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        var cell:UICollectionViewCell = self.collectionView.dequeueReusableCellWithReuseIdentifier("CollectionViewCell", forIndexPath: indexPath) as! UICollectionViewCell
+        let cell:UICollectionViewCell = self.collectionView.dequeueReusableCellWithReuseIdentifier("CollectionViewCell", forIndexPath: indexPath) 
         cell.backgroundColor = UIColor.blueColor()
         return cell
     }

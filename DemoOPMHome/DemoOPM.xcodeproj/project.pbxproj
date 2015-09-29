@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A44EB641BB27ABD003B40AB /* GlobalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44EB631BB27ABD003B40AB /* GlobalFunction.swift */; settings = {ASSET_TAGS = (); }; };
+		1A44EB6C1BB2A0D4003B40AB /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44EB6B1BB2A0D4003B40AB /* ScanViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1A44EB7E1BB2A732003B40AB /* libCardIO.a in Sources */ = {isa = PBXBuildFile; fileRef = 1A44EB7D1BB2A732003B40AB /* libCardIO.a */; };
+		1A44EB821BB2AAD7003B40AB /* CardIO.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1A44EB811BB2AAD7003B40AB /* CardIO.podspec */; settings = {ASSET_TAGS = (); }; };
+		1A44EB831BB2AAFB003B40AB /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A44EB7D1BB2A732003B40AB /* libCardIO.a */; };
+		1A44EBAB1BB3982F003B40AB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A44EBAA1BB3982F003B40AB /* CoreMedia.framework */; };
+		1A44EBAD1BB3983A003B40AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A44EBAC1BB3983A003B40AB /* MobileCoreServices.framework */; };
 		1A4E2F741B833083006F4E73 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E2F711B833083006F4E73 /* CycleScrollView.m */; };
 		1A4E2F751B833083006F4E73 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E2F731B833083006F4E73 /* NSTimer+Addition.m */; };
-		1A53C2801B956D3C0035DB86 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53C27F1B956D3C0035DB86 /* CryptoSwift.framework */; };
 		1A615F711B8ADE65001B28D2 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A615F701B8ADE65001B28D2 /* CollectionViewController.swift */; };
 		1A67215F1B8448980071E7F8 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A67215D1B8448980071E7F8 /* 1.png */; };
 		1A6721601B8448980071E7F8 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A67215E1B8448980071E7F8 /* 2.png */; };
 		1A6721641B8499850071E7F8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6721631B8499850071E7F8 /* MediaPlayer.framework */; };
 		1A6721661B849D840071E7F8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6721651B849D840071E7F8 /* AudioToolbox.framework */; };
 		1A6721681B849D9F0071E7F8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6721671B849D9F0071E7F8 /* AVFoundation.framework */; };
+		1A73283D1BB93ECC00C4F3C2 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73283C1BB93ECC00C4F3C2 /* GestureViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		1A7451B51B8D5E0400386BF3 /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7451B41B8D5E0400386BF3 /* HeaderViewCell.swift */; };
 		1A7451B71B8D694200386BF3 /* DanmuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7451B61B8D694200386BF3 /* DanmuViewController.swift */; };
 		1A86520D1B7D92DB0032B1C7 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A86520C1B7D92DB0032B1C7 /* TabOneViewController.swift */; };
@@ -30,20 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A53C2871B956E3B0035DB86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1A53C2811B956E3B0035DB86 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 754BE45519693E190098E6F3;
-			remoteInfo = CryptoSwift;
-		};
-		1A53C2891B956E3B0035DB86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1A53C2811B956E3B0035DB86 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 754BE46019693E190098E6F3;
-			remoteInfo = CryptoSwiftTests;
-		};
 		1AE67B991B7B4052003B7B67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1AE67B7B1B7B4052003B7B67 /* Project object */;
@@ -54,19 +47,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A44EB631BB27ABD003B40AB /* GlobalFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunction.swift; sourceTree = "<group>"; };
+		1A44EB6B1BB2A0D4003B40AB /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScanViewController.swift; path = ../ScanViewController.swift; sourceTree = "<group>"; };
+		1A44EB741BB2A34B003B40AB /* CardIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardIO.h; path = CardIO/CardIO.h; sourceTree = "<group>"; };
+		1A44EB751BB2A34B003B40AB /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardInfo.h; path = CardIO/CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		1A44EB761BB2A34B003B40AB /* CardIODetectionMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardIODetectionMode.h; path = CardIO/CardIODetectionMode.h; sourceTree = "<group>"; };
+		1A44EB771BB2A34C003B40AB /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewController.h; path = CardIO/CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		1A44EB781BB2A34C003B40AB /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewControllerDelegate.h; path = CardIO/CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		1A44EB791BB2A34C003B40AB /* CardIOUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardIOUtilities.h; path = CardIO/CardIOUtilities.h; sourceTree = "<group>"; };
+		1A44EB7A1BB2A34C003B40AB /* CardIOView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardIOView.h; path = CardIO/CardIOView.h; sourceTree = "<group>"; };
+		1A44EB7B1BB2A34C003B40AB /* CardIOViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardIOViewDelegate.h; path = CardIO/CardIOViewDelegate.h; sourceTree = "<group>"; };
+		1A44EB7D1BB2A732003B40AB /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCardIO.a; path = CardIO/libCardIO.a; sourceTree = "<group>"; };
+		1A44EB811BB2AAD7003B40AB /* CardIO.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CardIO.podspec; sourceTree = "<group>"; };
+		1A44EBAA1BB3982F003B40AB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1A44EBAC1BB3983A003B40AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1A4E2F6F1B833082006F4E73 /* DemoOPM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoOPM-Bridging-Header.h"; sourceTree = "<group>"; };
 		1A4E2F701B833083006F4E73 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
 		1A4E2F711B833083006F4E73 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
 		1A4E2F721B833083006F4E73 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
 		1A4E2F731B833083006F4E73 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
-		1A53C27F1B956D3C0035DB86 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = "<group>"; };
-		1A53C2811B956E3B0035DB86 /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = "CryptoSwift-master/CryptoSwift.xcodeproj"; sourceTree = "<group>"; };
 		1A615F701B8ADE65001B28D2 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		1A67215D1B8448980071E7F8 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		1A67215E1B8448980071E7F8 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		1A6721631B8499850071E7F8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		1A6721651B849D840071E7F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1A6721671B849D9F0071E7F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1A73283C1BB93ECC00C4F3C2 /* GestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 		1A7451B41B8D5E0400386BF3 /* HeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
 		1A7451B61B8D694200386BF3 /* DanmuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DanmuViewController.swift; sourceTree = "<group>"; };
 		1A86520C1B7D92DB0032B1C7 /* TabOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +95,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A53C2801B956D3C0035DB86 /* CryptoSwift.framework in Frameworks */,
+				1A44EBAD1BB3983A003B40AB /* MobileCoreServices.framework in Frameworks */,
+				1A44EBAB1BB3982F003B40AB /* CoreMedia.framework in Frameworks */,
+				1A44EB831BB2AAFB003B40AB /* libCardIO.a in Frameworks */,
 				1A6721681B849D9F0071E7F8 /* AVFoundation.framework in Frameworks */,
 				1A6721661B849D840071E7F8 /* AudioToolbox.framework in Frameworks */,
 				1A6721641B8499850071E7F8 /* MediaPlayer.framework in Frameworks */,
@@ -106,6 +114,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A44EB801BB2AABD003B40AB /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				1A44EB811BB2AAD7003B40AB /* CardIO.podspec */,
+				1A44EB7D1BB2A732003B40AB /* libCardIO.a */,
+				1A44EB741BB2A34B003B40AB /* CardIO.h */,
+				1A44EB751BB2A34B003B40AB /* CardIOCreditCardInfo.h */,
+				1A44EB761BB2A34B003B40AB /* CardIODetectionMode.h */,
+				1A44EB771BB2A34C003B40AB /* CardIOPaymentViewController.h */,
+				1A44EB781BB2A34C003B40AB /* CardIOPaymentViewControllerDelegate.h */,
+				1A44EB791BB2A34C003B40AB /* CardIOUtilities.h */,
+				1A44EB7A1BB2A34C003B40AB /* CardIOView.h */,
+				1A44EB7B1BB2A34C003B40AB /* CardIOViewDelegate.h */,
+			);
+			name = CardIO;
+			sourceTree = "<group>";
+		};
 		1A4E2F761B83308C006F4E73 /* CycleScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,20 +142,13 @@
 			name = CycleScreen;
 			sourceTree = "<group>";
 		};
-		1A53C2821B956E3B0035DB86 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1A53C2881B956E3B0035DB86 /* CryptoSwift.framework */,
-				1A53C28A1B956E3B0035DB86 /* CryptoSwiftTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1AE67B7A1B7B4052003B7B67 = {
 			isa = PBXGroup;
 			children = (
-				1A53C2811B956E3B0035DB86 /* CryptoSwift.xcodeproj */,
-				1A53C27F1B956D3C0035DB86 /* CryptoSwift.framework */,
+				1A44EBAC1BB3983A003B40AB /* MobileCoreServices.framework */,
+				1A44EBAA1BB3982F003B40AB /* CoreMedia.framework */,
+				1A44EB801BB2AABD003B40AB /* CardIO */,
+				1A44EB631BB27ABD003B40AB /* GlobalFunction.swift */,
 				1A6721671B849D9F0071E7F8 /* AVFoundation.framework */,
 				1A6721651B849D840071E7F8 /* AudioToolbox.framework */,
 				1A6721631B8499850071E7F8 /* MediaPlayer.framework */,
@@ -160,6 +178,8 @@
 				1A8652121B7DCD6F0032B1C7 /* ExtendViewController.swift */,
 				1A615F701B8ADE65001B28D2 /* CollectionViewController.swift */,
 				1A7451B61B8D694200386BF3 /* DanmuViewController.swift */,
+				1A44EB6B1BB2A0D4003B40AB /* ScanViewController.swift */,
+				1A73283C1BB93ECC00C4F3C2 /* GestureViewController.swift */,
 				1AE67B8C1B7B4052003B7B67 /* Main.storyboard */,
 				1AE67B8F1B7B4052003B7B67 /* Images.xcassets */,
 				1AE67B911B7B4052003B7B67 /* LaunchScreen.xib */,
@@ -241,11 +261,14 @@
 		1AE67B7B1B7B4052003B7B67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = wyy;
 				TargetAttributes = {
 					1AE67B821B7B4052003B7B67 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JRX9ZS3W2M;
 					};
 					1AE67B971B7B4052003B7B67 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -264,12 +287,6 @@
 			mainGroup = 1AE67B7A1B7B4052003B7B67;
 			productRefGroup = 1AE67B841B7B4052003B7B67 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 1A53C2821B956E3B0035DB86 /* Products */;
-					ProjectRef = 1A53C2811B956E3B0035DB86 /* CryptoSwift.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1AE67B821B7B4052003B7B67 /* DemoOPM */,
@@ -278,23 +295,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		1A53C2881B956E3B0035DB86 /* CryptoSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CryptoSwift.framework;
-			remoteRef = 1A53C2871B956E3B0035DB86 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1A53C28A1B956E3B0035DB86 /* CryptoSwiftTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CryptoSwiftTests.xctest;
-			remoteRef = 1A53C2891B956E3B0035DB86 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		1AE67B811B7B4052003B7B67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -302,6 +302,7 @@
 			files = (
 				1AE67B8E1B7B4052003B7B67 /* Main.storyboard in Resources */,
 				1A67215F1B8448980071E7F8 /* 1.png in Resources */,
+				1A44EB821BB2AAD7003B40AB /* CardIO.podspec in Resources */,
 				1A6721601B8448980071E7F8 /* 2.png in Resources */,
 				1AE67B931B7B4052003B7B67 /* LaunchScreen.xib in Resources */,
 				1AE67B901B7B4052003B7B67 /* Images.xcassets in Resources */,
@@ -322,16 +323,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A73283D1BB93ECC00C4F3C2 /* GestureViewController.swift in Sources */,
+				1A44EB7E1BB2A732003B40AB /* libCardIO.a in Sources */,
 				1A4E2F741B833083006F4E73 /* CycleScrollView.m in Sources */,
 				1AE67B8B1B7B4052003B7B67 /* ViewController.swift in Sources */,
 				1A8652131B7DCD6F0032B1C7 /* ExtendViewController.swift in Sources */,
 				1A7451B51B8D5E0400386BF3 /* HeaderViewCell.swift in Sources */,
+				1A44EB641BB27ABD003B40AB /* GlobalFunction.swift in Sources */,
 				1A86520D1B7D92DB0032B1C7 /* TabOneViewController.swift in Sources */,
 				1A615F711B8ADE65001B28D2 /* CollectionViewController.swift in Sources */,
 				1AE67B891B7B4052003B7B67 /* AppDelegate.swift in Sources */,
 				1A8652111B7D932B0032B1C7 /* EntendOneViewController.swift in Sources */,
 				1A7451B71B8D694200386BF3 /* DanmuViewController.swift in Sources */,
 				1A4E2F751B833083006F4E73 /* NSTimer+Addition.m in Sources */,
+				1A44EB6C1BB2A0D4003B40AB /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +419,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
@@ -451,6 +457,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};
@@ -459,16 +466,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/CryptoSwift-master/build/Debug-iphoneos",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DemoOPM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardIO",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = OPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoOPM/DemoOPM-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
@@ -477,15 +494,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/CryptoSwift-master/build/Debug-iphoneos",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DemoOPM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardIO",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = OPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoOPM/DemoOPM-Bridging-Header.h";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};
