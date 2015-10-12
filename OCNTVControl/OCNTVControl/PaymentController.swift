@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  OCNTVControl
 //
 //  Created by Wu YiYun on 15/9/29.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class PaymentController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

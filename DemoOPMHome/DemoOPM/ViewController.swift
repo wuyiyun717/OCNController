@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print(global, terminator: "")
         global = "hello"
+        let deviceID = UIDevice.currentDevice().identifierForVendor
+        print("uuid:\(deviceID)")
         // Do any additional setup after loading the view, typically from a nib.
     }
 

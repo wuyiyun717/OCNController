@@ -15,6 +15,9 @@ class TabOneViewController: UIViewController {
         print(global, terminator: "")
         global = "hello2"
         self.tabBarController?.tabBar.hidden = false
+        let deviceID = UIDevice.currentDevice().identifierForVendor
+        print("uuid:\(deviceID)")
+
         // Do any additional setup after loading the view, typically from a nib.
     }
     

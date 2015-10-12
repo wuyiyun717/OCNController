@@ -7,14 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A697AC61BC7AB3D00C83381 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A697AC01BC7AB3D00C83381 /* QRCameraSwitchButton.m */; settings = {ASSET_TAGS = (); }; };
+		1A697AC71BC7AB3D00C83381 /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A697AC31BC7AB3D00C83381 /* QRCodeReaderView.m */; settings = {ASSET_TAGS = (); }; };
+		1A697AC81BC7AB3D00C83381 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A697AC51BC7AB3D00C83381 /* QRCodeReaderViewController.m */; settings = {ASSET_TAGS = (); }; };
 		1A73284B1BBA8B4300C4F3C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73284A1BBA8B4300C4F3C2 /* AppDelegate.swift */; };
-		1A73284D1BBA8B4300C4F3C2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73284C1BBA8B4300C4F3C2 /* FirstViewController.swift */; };
-		1A73284F1BBA8B4300C4F3C2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73284E1BBA8B4300C4F3C2 /* SecondViewController.swift */; };
+		1A73284D1BBA8B4300C4F3C2 /* TVCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73284C1BBA8B4300C4F3C2 /* TVCController.swift */; };
+		1A73284F1BBA8B4300C4F3C2 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73284E1BBA8B4300C4F3C2 /* PaymentController.swift */; };
 		1A7328521BBA8B4300C4F3C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328501BBA8B4300C4F3C2 /* Main.storyboard */; };
 		1A7328541BBA8B4300C4F3C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328531BBA8B4300C4F3C2 /* Assets.xcassets */; };
 		1A7328571BBA8B4300C4F3C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328551BBA8B4300C4F3C2 /* LaunchScreen.storyboard */; };
 		1A7328621BBA8B4300C4F3C2 /* OCNTVControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7328611BBA8B4300C4F3C2 /* OCNTVControlTests.swift */; };
 		1A73286D1BBA8B4300C4F3C2 /* OCNTVControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73286C1BBA8B4300C4F3C2 /* OCNTVControlUITests.swift */; };
+		1A73289A1BBB7C4300C4F3C2 /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A73287D1BBB7C4300C4F3C2 /* 背景.png */; settings = {ASSET_TAGS = (); }; };
+		1A73289B1BBB7C4300C4F3C2 /* 背景1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A73287E1BBB7C4300C4F3C2 /* 背景1.png */; settings = {ASSET_TAGS = (); }; };
+		1A73289C1BBB7C4300C4F3C2 /* 上背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A73287F1BBB7C4300C4F3C2 /* 上背景.png */; settings = {ASSET_TAGS = (); }; };
+		1A73289D1BBB7C4300C4F3C2 /* 未选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328801BBB7C4300C4F3C2 /* 未选中.png */; settings = {ASSET_TAGS = (); }; };
+		1A73289E1BBB7C4300C4F3C2 /* 选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328811BBB7C4300C4F3C2 /* 选中.png */; settings = {ASSET_TAGS = (); }; };
+		1A73289F1BBB7C4300C4F3C2 /* 遥控按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328821BBB7C4300C4F3C2 /* 遥控按钮.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328A01BBB7C4300C4F3C2 /* 音量背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328831BBB7C4300C4F3C2 /* 音量背景.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328A11BBB7C4300C4F3C2 /* 音量加.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328841BBB7C4300C4F3C2 /* 音量加.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328A21BBB7C4300C4F3C2 /* 音量减.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328851BBB7C4300C4F3C2 /* 音量减.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328A31BBB7C4300C4F3C2 /* bind_channel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328861BBB7C4300C4F3C2 /* bind_channel.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328A41BBB7C4300C4F3C2 /* bind_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328871BBB7C4300C4F3C2 /* bind_phone.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328A51BBB7C4300C4F3C2 /* collect.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328881BBB7C4300C4F3C2 /* collect.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328A61BBB7C4300C4F3C2 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328891BBB7C4300C4F3C2 /* delete.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328A71BBB7C4300C4F3C2 /* eight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A73288A1BBB7C4300C4F3C2 /* eight.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328A81BBB7C4300C4F3C2 /* five.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A73288B1BBB7C4300C4F3C2 /* five.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328A91BBB7C4300C4F3C2 /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A73288C1BBB7C4300C4F3C2 /* four.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328AA1BBB7C4300C4F3C2 /* gratuity.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A73288D1BBB7C4300C4F3C2 /* gratuity.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328AB1BBB7C4300C4F3C2 /* mute_sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A73288E1BBB7C4300C4F3C2 /* mute_sound.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328AC1BBB7C4300C4F3C2 /* my_love.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A73288F1BBB7C4300C4F3C2 /* my_love.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328AD1BBB7C4300C4F3C2 /* nine.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328901BBB7C4300C4F3C2 /* nine.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328AE1BBB7C4300C4F3C2 /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328911BBB7C4300C4F3C2 /* one.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328AF1BBB7C4300C4F3C2 /* power.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328921BBB7C4300C4F3C2 /* power.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328B01BBB7C4300C4F3C2 /* quit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328931BBB7C4300C4F3C2 /* quit.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328B11BBB7C4300C4F3C2 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328941BBB7C4300C4F3C2 /* seven.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328B21BBB7C4300C4F3C2 /* six.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328951BBB7C4300C4F3C2 /* six.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328B31BBB7C4300C4F3C2 /* sure.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328961BBB7C4300C4F3C2 /* sure.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328B41BBB7C4300C4F3C2 /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328971BBB7C4300C4F3C2 /* three.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328B51BBB7C4300C4F3C2 /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328981BBB7C4300C4F3C2 /* two.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328B61BBB7C4300C4F3C2 /* zero.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328991BBB7C4300C4F3C2 /* zero.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328CA1BBB7C7000C4F3C2 /* 椭圆-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328B81BBB7C7000C4F3C2 /* 椭圆-2.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328CB1BBB7C7000C4F3C2 /* arround.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328B91BBB7C7000C4F3C2 /* arround.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328CC1BBB7C7000C4F3C2 /* background_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328BA1BBB7C7000C4F3C2 /* background_bottom.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328CD1BBB7C7000C4F3C2 /* background_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328BB1BBB7C7000C4F3C2 /* background_tab.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328CE1BBB7C7000C4F3C2 /* bind.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328BC1BBB7C7000C4F3C2 /* bind.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328CF1BBB7C7000C4F3C2 /* control.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328BD1BBB7C7000C4F3C2 /* control.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328D01BBB7C7000C4F3C2 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328BE1BBB7C7000C4F3C2 /* down.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328D11BBB7C7000C4F3C2 /* house_look.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328BF1BBB7C7000C4F3C2 /* house_look.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328D21BBB7C7000C4F3C2 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328C01BBB7C7000C4F3C2 /* house.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328D31BBB7C7000C4F3C2 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328C11BBB7C7000C4F3C2 /* left.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328D41BBB7C7000C4F3C2 /* licai.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328C21BBB7C7000C4F3C2 /* licai.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328D51BBB7C7000C4F3C2 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328C31BBB7C7000C4F3C2 /* love.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328D61BBB7C7000C4F3C2 /* middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328C41BBB7C7000C4F3C2 /* middle.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328D71BBB7C7000C4F3C2 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328C51BBB7C7000C4F3C2 /* more.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328D81BBB7C7000C4F3C2 /* pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328C61BBB7C7000C4F3C2 /* pay.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328D91BBB7C7000C4F3C2 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328C71BBB7C7000C4F3C2 /* right.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328DA1BBB7C7000C4F3C2 /* tv_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328C81BBB7C7000C4F3C2 /* tv_pic.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328DB1BBB7C7000C4F3C2 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7328C91BBB7C7000C4F3C2 /* up.png */; settings = {ASSET_TAGS = (); }; };
+		1A7328DD1BBB874600C4F3C2 /* TVRemoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7328DC1BBB874600C4F3C2 /* TVRemoteController.swift */; settings = {ASSET_TAGS = (); }; };
+		1A7B28C21BC8DEC300E717C8 /* libyueshi_release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7B28C11BC8DEC300E717C8 /* libyueshi_release.a */; settings = {ASSET_TAGS = (); }; };
+		1A7B28C41BC8DECD00E717C8 /* libyueshi_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7B28C31BC8DECD00E717C8 /* libyueshi_debug.a */; settings = {ASSET_TAGS = (); }; };
+		1A7B28C61BC8DED900E717C8 /* libyueshi_sim_release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7B28C51BC8DED900E717C8 /* libyueshi_sim_release.a */; settings = {ASSET_TAGS = (); }; };
+		1A7B28C81BC8DEE600E717C8 /* libyueshi_sim_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7B28C71BC8DEE600E717C8 /* libyueshi_sim_debug.a */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +90,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A697ABE1BC7AB3C00C83381 /* OCNTVControl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCNTVControl-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		1A697ABF1BC7AB3D00C83381 /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCameraSwitchButton.h; sourceTree = "<group>"; };
+		1A697AC01BC7AB3D00C83381 /* QRCameraSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCameraSwitchButton.m; sourceTree = "<group>"; };
+		1A697AC11BC7AB3D00C83381 /* QRCodeReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderDelegate.h; sourceTree = "<group>"; };
+		1A697AC21BC7AB3D00C83381 /* QRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderView.h; sourceTree = "<group>"; };
+		1A697AC31BC7AB3D00C83381 /* QRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderView.m; sourceTree = "<group>"; };
+		1A697AC41BC7AB3D00C83381 /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderViewController.h; sourceTree = "<group>"; };
+		1A697AC51BC7AB3D00C83381 /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
 		1A7328471BBA8B4300C4F3C2 /* OCNTVControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCNTVControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A73284A1BBA8B4300C4F3C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A73284C1BBA8B4300C4F3C2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1A73284E1BBA8B4300C4F3C2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1A73284C1BBA8B4300C4F3C2 /* TVCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCController.swift; sourceTree = "<group>"; };
+		1A73284E1BBA8B4300C4F3C2 /* PaymentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
 		1A7328511BBA8B4300C4F3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A7328531BBA8B4300C4F3C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A7328561BBA8B4300C4F3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +112,59 @@
 		1A7328681BBA8B4300C4F3C2 /* OCNTVControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCNTVControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A73286C1BBA8B4300C4F3C2 /* OCNTVControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCNTVControlUITests.swift; sourceTree = "<group>"; };
 		1A73286E1BBA8B4300C4F3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A73287D1BBB7C4300C4F3C2 /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "背景.png"; path = "OCNTVControl/遥控器切图/drawable-xhdpi/背景.png"; sourceTree = "<group>"; };
+		1A73287E1BBB7C4300C4F3C2 /* 背景1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "背景1.png"; path = "OCNTVControl/遥控器切图/drawable-xhdpi/背景1.png"; sourceTree = "<group>"; };
+		1A73287F1BBB7C4300C4F3C2 /* 上背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "上背景.png"; path = "OCNTVControl/遥控器切图/drawable-xhdpi/上背景.png"; sourceTree = "<group>"; };
+		1A7328801BBB7C4300C4F3C2 /* 未选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "未选中.png"; path = "OCNTVControl/遥控器切图/drawable-xhdpi/未选中.png"; sourceTree = "<group>"; };
+		1A7328811BBB7C4300C4F3C2 /* 选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "选中.png"; path = "OCNTVControl/遥控器切图/drawable-xhdpi/选中.png"; sourceTree = "<group>"; };
+		1A7328821BBB7C4300C4F3C2 /* 遥控按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "遥控按钮.png"; path = "OCNTVControl/遥控器切图/drawable-xhdpi/遥控按钮.png"; sourceTree = "<group>"; };
+		1A7328831BBB7C4300C4F3C2 /* 音量背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "音量背景.png"; path = "OCNTVControl/遥控器切图/drawable-xhdpi/音量背景.png"; sourceTree = "<group>"; };
+		1A7328841BBB7C4300C4F3C2 /* 音量加.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "音量加.png"; path = "OCNTVControl/遥控器切图/drawable-xhdpi/音量加.png"; sourceTree = "<group>"; };
+		1A7328851BBB7C4300C4F3C2 /* 音量减.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "音量减.png"; path = "OCNTVControl/遥控器切图/drawable-xhdpi/音量减.png"; sourceTree = "<group>"; };
+		1A7328861BBB7C4300C4F3C2 /* bind_channel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bind_channel.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/bind_channel.png"; sourceTree = "<group>"; };
+		1A7328871BBB7C4300C4F3C2 /* bind_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bind_phone.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/bind_phone.png"; sourceTree = "<group>"; };
+		1A7328881BBB7C4300C4F3C2 /* collect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = collect.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/collect.png"; sourceTree = "<group>"; };
+		1A7328891BBB7C4300C4F3C2 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/delete.png"; sourceTree = "<group>"; };
+		1A73288A1BBB7C4300C4F3C2 /* eight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eight.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/eight.png"; sourceTree = "<group>"; };
+		1A73288B1BBB7C4300C4F3C2 /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = five.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/five.png"; sourceTree = "<group>"; };
+		1A73288C1BBB7C4300C4F3C2 /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = four.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/four.png"; sourceTree = "<group>"; };
+		1A73288D1BBB7C4300C4F3C2 /* gratuity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gratuity.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/gratuity.png"; sourceTree = "<group>"; };
+		1A73288E1BBB7C4300C4F3C2 /* mute_sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mute_sound.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/mute_sound.png"; sourceTree = "<group>"; };
+		1A73288F1BBB7C4300C4F3C2 /* my_love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = my_love.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/my_love.png"; sourceTree = "<group>"; };
+		1A7328901BBB7C4300C4F3C2 /* nine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nine.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/nine.png"; sourceTree = "<group>"; };
+		1A7328911BBB7C4300C4F3C2 /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = one.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/one.png"; sourceTree = "<group>"; };
+		1A7328921BBB7C4300C4F3C2 /* power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = power.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/power.png"; sourceTree = "<group>"; };
+		1A7328931BBB7C4300C4F3C2 /* quit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quit.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/quit.png"; sourceTree = "<group>"; };
+		1A7328941BBB7C4300C4F3C2 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seven.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/seven.png"; sourceTree = "<group>"; };
+		1A7328951BBB7C4300C4F3C2 /* six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = six.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/six.png"; sourceTree = "<group>"; };
+		1A7328961BBB7C4300C4F3C2 /* sure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sure.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/sure.png"; sourceTree = "<group>"; };
+		1A7328971BBB7C4300C4F3C2 /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = three.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/three.png"; sourceTree = "<group>"; };
+		1A7328981BBB7C4300C4F3C2 /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = two.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/two.png"; sourceTree = "<group>"; };
+		1A7328991BBB7C4300C4F3C2 /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zero.png; path = "OCNTVControl/遥控器切图/drawable-xhdpi/zero.png"; sourceTree = "<group>"; };
+		1A7328B81BBB7C7000C4F3C2 /* 椭圆-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "椭圆-2.png"; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/椭圆-2.png"; sourceTree = "<group>"; };
+		1A7328B91BBB7C7000C4F3C2 /* arround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arround.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/arround.png"; sourceTree = "<group>"; };
+		1A7328BA1BBB7C7000C4F3C2 /* background_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_bottom.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/background_bottom.png"; sourceTree = "<group>"; };
+		1A7328BB1BBB7C7000C4F3C2 /* background_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_tab.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/background_tab.png"; sourceTree = "<group>"; };
+		1A7328BC1BBB7C7000C4F3C2 /* bind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bind.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/bind.png"; sourceTree = "<group>"; };
+		1A7328BD1BBB7C7000C4F3C2 /* control.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = control.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/control.png"; sourceTree = "<group>"; };
+		1A7328BE1BBB7C7000C4F3C2 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = down.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/down.png"; sourceTree = "<group>"; };
+		1A7328BF1BBB7C7000C4F3C2 /* house_look.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = house_look.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/house_look.png"; sourceTree = "<group>"; };
+		1A7328C01BBB7C7000C4F3C2 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = house.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/house.png"; sourceTree = "<group>"; };
+		1A7328C11BBB7C7000C4F3C2 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/left.png"; sourceTree = "<group>"; };
+		1A7328C21BBB7C7000C4F3C2 /* licai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = licai.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/licai.png"; sourceTree = "<group>"; };
+		1A7328C31BBB7C7000C4F3C2 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = love.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/love.png"; sourceTree = "<group>"; };
+		1A7328C41BBB7C7000C4F3C2 /* middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = middle.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/middle.png"; sourceTree = "<group>"; };
+		1A7328C51BBB7C7000C4F3C2 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = more.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/more.png"; sourceTree = "<group>"; };
+		1A7328C61BBB7C7000C4F3C2 /* pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pay.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/pay.png"; sourceTree = "<group>"; };
+		1A7328C71BBB7C7000C4F3C2 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/right.png"; sourceTree = "<group>"; };
+		1A7328C81BBB7C7000C4F3C2 /* tv_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tv_pic.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/tv_pic.png"; sourceTree = "<group>"; };
+		1A7328C91BBB7C7000C4F3C2 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = up.png; path = "OCNTVControl/遥控器切图/123/drawable-xhdpi/up.png"; sourceTree = "<group>"; };
+		1A7328DC1BBB874600C4F3C2 /* TVRemoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVRemoteController.swift; sourceTree = "<group>"; };
+		1A7B28C11BC8DEC300E717C8 /* libyueshi_release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyueshi_release.a; path = Yueshi/libyueshi_release.a; sourceTree = "<group>"; };
+		1A7B28C31BC8DECD00E717C8 /* libyueshi_debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyueshi_debug.a; path = Yueshi/libyueshi_debug.a; sourceTree = "<group>"; };
+		1A7B28C51BC8DED900E717C8 /* libyueshi_sim_release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyueshi_sim_release.a; path = Yueshi/libyueshi_sim_release.a; sourceTree = "<group>"; };
+		1A7B28C71BC8DEE600E717C8 /* libyueshi_sim_debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyueshi_sim_debug.a; path = Yueshi/libyueshi_sim_debug.a; sourceTree = "<group>"; };
+		1A7B28C91BC8DEF000E717C8 /* yueshi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = yueshi.h; path = Yueshi/yueshi.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +172,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7B28C81BC8DEE600E717C8 /* libyueshi_sim_debug.a in Frameworks */,
+				1A7B28C41BC8DECD00E717C8 /* libyueshi_debug.a in Frameworks */,
+				1A7B28C61BC8DED900E717C8 /* libyueshi_sim_release.a in Frameworks */,
+				1A7B28C21BC8DEC300E717C8 /* libyueshi_release.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +196,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A697ABD1BC7AB2100C83381 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				1A697ABF1BC7AB3D00C83381 /* QRCameraSwitchButton.h */,
+				1A697AC01BC7AB3D00C83381 /* QRCameraSwitchButton.m */,
+				1A697AC11BC7AB3D00C83381 /* QRCodeReaderDelegate.h */,
+				1A697AC21BC7AB3D00C83381 /* QRCodeReaderView.h */,
+				1A697AC31BC7AB3D00C83381 /* QRCodeReaderView.m */,
+				1A697AC41BC7AB3D00C83381 /* QRCodeReaderViewController.h */,
+				1A697AC51BC7AB3D00C83381 /* QRCodeReaderViewController.m */,
+			);
+			name = Scan;
+			sourceTree = "<group>";
+		};
 		1A73283E1BBA8B4300C4F3C2 = {
 			isa = PBXGroup;
 			children = (
+				1A7B289F1BC8A56000E717C8 /* Yueshi */,
+				1A697ABD1BC7AB2100C83381 /* Scan */,
+				1A73287C1BBB7C1900C4F3C2 /* Picture */,
 				1A7328491BBA8B4300C4F3C2 /* OCNTVControl */,
 				1A7328601BBA8B4300C4F3C2 /* OCNTVControlTests */,
 				1A73286B1BBA8B4300C4F3C2 /* OCNTVControlUITests */,
@@ -100,12 +237,14 @@
 			isa = PBXGroup;
 			children = (
 				1A73284A1BBA8B4300C4F3C2 /* AppDelegate.swift */,
-				1A73284C1BBA8B4300C4F3C2 /* FirstViewController.swift */,
-				1A73284E1BBA8B4300C4F3C2 /* SecondViewController.swift */,
+				1A73284C1BBA8B4300C4F3C2 /* TVCController.swift */,
+				1A7328DC1BBB874600C4F3C2 /* TVRemoteController.swift */,
+				1A73284E1BBA8B4300C4F3C2 /* PaymentController.swift */,
 				1A7328501BBA8B4300C4F3C2 /* Main.storyboard */,
 				1A7328531BBA8B4300C4F3C2 /* Assets.xcassets */,
 				1A7328551BBA8B4300C4F3C2 /* LaunchScreen.storyboard */,
 				1A7328581BBA8B4300C4F3C2 /* Info.plist */,
+				1A697ABE1BC7AB3C00C83381 /* OCNTVControl-Bridging-Header.h */,
 			);
 			path = OCNTVControl;
 			sourceTree = "<group>";
@@ -126,6 +265,112 @@
 				1A73286E1BBA8B4300C4F3C2 /* Info.plist */,
 			);
 			path = OCNTVControlUITests;
+			sourceTree = "<group>";
+		};
+		1A73287C1BBB7C1900C4F3C2 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				1A7328B71BBB7C5F00C4F3C2 /* 123 */,
+				1A73287D1BBB7C4300C4F3C2 /* 背景.png */,
+				1A73287E1BBB7C4300C4F3C2 /* 背景1.png */,
+				1A73287F1BBB7C4300C4F3C2 /* 上背景.png */,
+				1A7328801BBB7C4300C4F3C2 /* 未选中.png */,
+				1A7328811BBB7C4300C4F3C2 /* 选中.png */,
+				1A7328821BBB7C4300C4F3C2 /* 遥控按钮.png */,
+				1A7328831BBB7C4300C4F3C2 /* 音量背景.png */,
+				1A7328841BBB7C4300C4F3C2 /* 音量加.png */,
+				1A7328851BBB7C4300C4F3C2 /* 音量减.png */,
+				1A7328861BBB7C4300C4F3C2 /* bind_channel.png */,
+				1A7328871BBB7C4300C4F3C2 /* bind_phone.png */,
+				1A7328881BBB7C4300C4F3C2 /* collect.png */,
+				1A7328891BBB7C4300C4F3C2 /* delete.png */,
+				1A73288A1BBB7C4300C4F3C2 /* eight.png */,
+				1A73288B1BBB7C4300C4F3C2 /* five.png */,
+				1A73288C1BBB7C4300C4F3C2 /* four.png */,
+				1A73288D1BBB7C4300C4F3C2 /* gratuity.png */,
+				1A73288E1BBB7C4300C4F3C2 /* mute_sound.png */,
+				1A73288F1BBB7C4300C4F3C2 /* my_love.png */,
+				1A7328901BBB7C4300C4F3C2 /* nine.png */,
+				1A7328911BBB7C4300C4F3C2 /* one.png */,
+				1A7328921BBB7C4300C4F3C2 /* power.png */,
+				1A7328931BBB7C4300C4F3C2 /* quit.png */,
+				1A7328941BBB7C4300C4F3C2 /* seven.png */,
+				1A7328951BBB7C4300C4F3C2 /* six.png */,
+				1A7328961BBB7C4300C4F3C2 /* sure.png */,
+				1A7328971BBB7C4300C4F3C2 /* three.png */,
+				1A7328981BBB7C4300C4F3C2 /* two.png */,
+				1A7328991BBB7C4300C4F3C2 /* zero.png */,
+			);
+			name = Picture;
+			sourceTree = "<group>";
+		};
+		1A7328B71BBB7C5F00C4F3C2 /* 123 */ = {
+			isa = PBXGroup;
+			children = (
+				1A7328B81BBB7C7000C4F3C2 /* 椭圆-2.png */,
+				1A7328B91BBB7C7000C4F3C2 /* arround.png */,
+				1A7328BA1BBB7C7000C4F3C2 /* background_bottom.png */,
+				1A7328BB1BBB7C7000C4F3C2 /* background_tab.png */,
+				1A7328BC1BBB7C7000C4F3C2 /* bind.png */,
+				1A7328BD1BBB7C7000C4F3C2 /* control.png */,
+				1A7328BE1BBB7C7000C4F3C2 /* down.png */,
+				1A7328BF1BBB7C7000C4F3C2 /* house_look.png */,
+				1A7328C01BBB7C7000C4F3C2 /* house.png */,
+				1A7328C11BBB7C7000C4F3C2 /* left.png */,
+				1A7328C21BBB7C7000C4F3C2 /* licai.png */,
+				1A7328C31BBB7C7000C4F3C2 /* love.png */,
+				1A7328C41BBB7C7000C4F3C2 /* middle.png */,
+				1A7328C51BBB7C7000C4F3C2 /* more.png */,
+				1A7328C61BBB7C7000C4F3C2 /* pay.png */,
+				1A7328C71BBB7C7000C4F3C2 /* right.png */,
+				1A7328C81BBB7C7000C4F3C2 /* tv_pic.png */,
+				1A7328C91BBB7C7000C4F3C2 /* up.png */,
+			);
+			name = 123;
+			sourceTree = "<group>";
+		};
+		1A7B289F1BC8A56000E717C8 /* Yueshi */ = {
+			isa = PBXGroup;
+			children = (
+				1A7B28C91BC8DEF000E717C8 /* yueshi.h */,
+				1A7B28B81BC8DDC800E717C8 /* Release-iphones */,
+				1A7B28B71BC8DDBB00E717C8 /* Debug-iphones */,
+				1A7B28B61BC8DDA800E717C8 /* Release-iphonesimulator */,
+				1A7B28B51BC8DD9700E717C8 /* Debug-iphonesimulator */,
+			);
+			name = Yueshi;
+			sourceTree = "<group>";
+		};
+		1A7B28B51BC8DD9700E717C8 /* Debug-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				1A7B28C71BC8DEE600E717C8 /* libyueshi_sim_debug.a */,
+			);
+			name = "Debug-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		1A7B28B61BC8DDA800E717C8 /* Release-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				1A7B28C51BC8DED900E717C8 /* libyueshi_sim_release.a */,
+			);
+			name = "Release-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		1A7B28B71BC8DDBB00E717C8 /* Debug-iphones */ = {
+			isa = PBXGroup;
+			children = (
+				1A7B28C31BC8DECD00E717C8 /* libyueshi_debug.a */,
+			);
+			name = "Debug-iphones";
+			sourceTree = "<group>";
+		};
+		1A7B28B81BC8DDC800E717C8 /* Release-iphones */ = {
+			isa = PBXGroup;
+			children = (
+				1A7B28C11BC8DEC300E717C8 /* libyueshi_release.a */,
+			);
+			name = "Release-iphones";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,11 +435,13 @@
 		1A73283F1BBA8B4300C4F3C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = OCN;
 				TargetAttributes = {
 					1A7328461BBA8B4300C4F3C2 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = JRX9ZS3W2M;
 					};
 					1A73285C1BBA8B4300C4F3C2 = {
 						CreatedOnToolsVersion = 7.0;
@@ -231,8 +478,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7328DB1BBB7C7000C4F3C2 /* up.png in Resources */,
+				1A7328B41BBB7C4300C4F3C2 /* three.png in Resources */,
+				1A7328D11BBB7C7000C4F3C2 /* house_look.png in Resources */,
+				1A7328CA1BBB7C7000C4F3C2 /* 椭圆-2.png in Resources */,
+				1A7328AA1BBB7C4300C4F3C2 /* gratuity.png in Resources */,
+				1A7328A11BBB7C4300C4F3C2 /* 音量加.png in Resources */,
+				1A7328B01BBB7C4300C4F3C2 /* quit.png in Resources */,
+				1A7328CF1BBB7C7000C4F3C2 /* control.png in Resources */,
+				1A73289B1BBB7C4300C4F3C2 /* 背景1.png in Resources */,
+				1A73289A1BBB7C4300C4F3C2 /* 背景.png in Resources */,
+				1A7328B21BBB7C4300C4F3C2 /* six.png in Resources */,
+				1A73289E1BBB7C4300C4F3C2 /* 选中.png in Resources */,
+				1A7328CC1BBB7C7000C4F3C2 /* background_bottom.png in Resources */,
+				1A7328AD1BBB7C4300C4F3C2 /* nine.png in Resources */,
+				1A7328A51BBB7C4300C4F3C2 /* collect.png in Resources */,
+				1A7328A71BBB7C4300C4F3C2 /* eight.png in Resources */,
+				1A73289D1BBB7C4300C4F3C2 /* 未选中.png in Resources */,
+				1A7328CB1BBB7C7000C4F3C2 /* arround.png in Resources */,
+				1A7328D81BBB7C7000C4F3C2 /* pay.png in Resources */,
+				1A7328CD1BBB7C7000C4F3C2 /* background_tab.png in Resources */,
+				1A7328AF1BBB7C4300C4F3C2 /* power.png in Resources */,
+				1A73289C1BBB7C4300C4F3C2 /* 上背景.png in Resources */,
 				1A7328571BBA8B4300C4F3C2 /* LaunchScreen.storyboard in Resources */,
+				1A7328AB1BBB7C4300C4F3C2 /* mute_sound.png in Resources */,
+				1A73289F1BBB7C4300C4F3C2 /* 遥控按钮.png in Resources */,
+				1A7328D21BBB7C7000C4F3C2 /* house.png in Resources */,
+				1A7328B61BBB7C4300C4F3C2 /* zero.png in Resources */,
+				1A7328A41BBB7C4300C4F3C2 /* bind_phone.png in Resources */,
+				1A7328D31BBB7C7000C4F3C2 /* left.png in Resources */,
+				1A7328A91BBB7C4300C4F3C2 /* four.png in Resources */,
+				1A7328A31BBB7C4300C4F3C2 /* bind_channel.png in Resources */,
+				1A7328B51BBB7C4300C4F3C2 /* two.png in Resources */,
+				1A7328AE1BBB7C4300C4F3C2 /* one.png in Resources */,
+				1A7328AC1BBB7C4300C4F3C2 /* my_love.png in Resources */,
+				1A7328D01BBB7C7000C4F3C2 /* down.png in Resources */,
+				1A7328D51BBB7C7000C4F3C2 /* love.png in Resources */,
+				1A7328A81BBB7C4300C4F3C2 /* five.png in Resources */,
+				1A7328CE1BBB7C7000C4F3C2 /* bind.png in Resources */,
+				1A7328D61BBB7C7000C4F3C2 /* middle.png in Resources */,
+				1A7328B11BBB7C4300C4F3C2 /* seven.png in Resources */,
+				1A7328D71BBB7C7000C4F3C2 /* more.png in Resources */,
 				1A7328541BBA8B4300C4F3C2 /* Assets.xcassets in Resources */,
+				1A7328A61BBB7C4300C4F3C2 /* delete.png in Resources */,
+				1A7328D91BBB7C7000C4F3C2 /* right.png in Resources */,
+				1A7328DA1BBB7C7000C4F3C2 /* tv_pic.png in Resources */,
+				1A7328B31BBB7C4300C4F3C2 /* sure.png in Resources */,
+				1A7328A01BBB7C4300C4F3C2 /* 音量背景.png in Resources */,
+				1A7328A21BBB7C4300C4F3C2 /* 音量减.png in Resources */,
+				1A7328D41BBB7C7000C4F3C2 /* licai.png in Resources */,
 				1A7328521BBA8B4300C4F3C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +552,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A73284F1BBA8B4300C4F3C2 /* SecondViewController.swift in Sources */,
+				1A697AC81BC7AB3D00C83381 /* QRCodeReaderViewController.m in Sources */,
+				1A73284F1BBA8B4300C4F3C2 /* PaymentController.swift in Sources */,
+				1A7328DD1BBB874600C4F3C2 /* TVRemoteController.swift in Sources */,
+				1A697AC61BC7AB3D00C83381 /* QRCameraSwitchButton.m in Sources */,
+				1A697AC71BC7AB3D00C83381 /* QRCodeReaderView.m in Sources */,
 				1A73284B1BBA8B4300C4F3C2 /* AppDelegate.swift in Sources */,
-				1A73284D1BBA8B4300C4F3C2 /* FirstViewController.swift in Sources */,
+				1A73284D1BBA8B4300C4F3C2 /* TVCController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,10 +698,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OCNTVControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Yueshi",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = OCN.OCNTVControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCNTVControl-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -411,10 +720,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OCNTVControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Yueshi",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = OCN.OCNTVControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCNTVControl-Bridging-Header.h";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -485,6 +804,7 @@
 				1A7328731BBA8B4300C4F3C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A7328741BBA8B4300C4F3C2 /* Build configuration list for PBXNativeTarget "OCNTVControlTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +813,7 @@
 				1A7328761BBA8B4300C4F3C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A7328771BBA8B4300C4F3C2 /* Build configuration list for PBXNativeTarget "OCNTVControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +822,7 @@
 				1A7328791BBA8B4300C4F3C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

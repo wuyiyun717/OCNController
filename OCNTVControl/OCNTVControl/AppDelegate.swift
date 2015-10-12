@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        //let controlImage = UIImage(named: "control.png")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
+        //UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+        //tvBox.InteControlHelper("123", sdkkey: "YUESHIIDHL1JK7HJIK")
         return true
     }
 

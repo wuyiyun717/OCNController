@@ -17,7 +17,9 @@ class EntendOneViewController: UIViewController {
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "返回", style: UIBarButtonItemStyle.Plain, target: self, action: "goback:")
         self.view.backgroundColor = UIColor.grayColor()
         self.tabBarController?.tabBar.hidden = false
-
+        let deviceID = UIDevice.currentDevice().identifierForVendor
+        print("uuid:\(deviceID!)")
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     

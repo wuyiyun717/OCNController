@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3A8A451BC6483F007F6D0E /* AnythingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3A8A441BC6483F007F6D0E /* AnythingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1A3A8A471BC64BBB007F6D0E /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3A8A461BC64BBB007F6D0E /* TabViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		1A44EB641BB27ABD003B40AB /* GlobalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44EB631BB27ABD003B40AB /* GlobalFunction.swift */; settings = {ASSET_TAGS = (); }; };
 		1A44EB6C1BB2A0D4003B40AB /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44EB6B1BB2A0D4003B40AB /* ScanViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		1A44EB7E1BB2A732003B40AB /* libCardIO.a in Sources */ = {isa = PBXBuildFile; fileRef = 1A44EB7D1BB2A732003B40AB /* libCardIO.a */; };
@@ -22,9 +24,14 @@
 		1A6721641B8499850071E7F8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6721631B8499850071E7F8 /* MediaPlayer.framework */; };
 		1A6721661B849D840071E7F8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6721651B849D840071E7F8 /* AudioToolbox.framework */; };
 		1A6721681B849D9F0071E7F8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6721671B849D9F0071E7F8 /* AVFoundation.framework */; };
+		1A697ABA1BC7A68000C83381 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A697AB41BC7A68000C83381 /* QRCameraSwitchButton.m */; settings = {ASSET_TAGS = (); }; };
+		1A697ABB1BC7A68000C83381 /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A697AB71BC7A68000C83381 /* QRCodeReaderView.m */; settings = {ASSET_TAGS = (); }; };
+		1A697ABC1BC7A68000C83381 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A697AB91BC7A68000C83381 /* QRCodeReaderViewController.m */; settings = {ASSET_TAGS = (); }; };
 		1A73283D1BB93ECC00C4F3C2 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73283C1BB93ECC00C4F3C2 /* GestureViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		1A7451B51B8D5E0400386BF3 /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7451B41B8D5E0400386BF3 /* HeaderViewCell.swift */; };
 		1A7451B71B8D694200386BF3 /* DanmuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7451B61B8D694200386BF3 /* DanmuViewController.swift */; };
+		1A7B28B01BC8BE6800E717C8 /* libyueshi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7B28AF1BC8BE6800E717C8 /* libyueshi.a */; settings = {ASSET_TAGS = (); }; };
+		1A7B28B41BC8DD7B00E717C8 /* libyueshi_i386.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7B28B31BC8DD7B00E717C8 /* libyueshi_i386.a */; settings = {ASSET_TAGS = (); }; };
 		1A86520D1B7D92DB0032B1C7 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A86520C1B7D92DB0032B1C7 /* TabOneViewController.swift */; };
 		1A8652111B7D932B0032B1C7 /* EntendOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8652101B7D932B0032B1C7 /* EntendOneViewController.swift */; };
 		1A8652131B7DCD6F0032B1C7 /* ExtendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8652121B7DCD6F0032B1C7 /* ExtendViewController.swift */; };
@@ -47,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A3A8A441BC6483F007F6D0E /* AnythingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnythingViewController.swift; sourceTree = "<group>"; };
+		1A3A8A461BC64BBB007F6D0E /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		1A44EB631BB27ABD003B40AB /* GlobalFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunction.swift; sourceTree = "<group>"; };
 		1A44EB6B1BB2A0D4003B40AB /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScanViewController.swift; path = ../ScanViewController.swift; sourceTree = "<group>"; };
 		1A44EB741BB2A34B003B40AB /* CardIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardIO.h; path = CardIO/CardIO.h; sourceTree = "<group>"; };
@@ -72,9 +81,19 @@
 		1A6721631B8499850071E7F8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		1A6721651B849D840071E7F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1A6721671B849D9F0071E7F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1A697AB31BC7A68000C83381 /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCameraSwitchButton.h; sourceTree = "<group>"; };
+		1A697AB41BC7A68000C83381 /* QRCameraSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCameraSwitchButton.m; sourceTree = "<group>"; };
+		1A697AB51BC7A68000C83381 /* QRCodeReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderDelegate.h; sourceTree = "<group>"; };
+		1A697AB61BC7A68000C83381 /* QRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderView.h; sourceTree = "<group>"; };
+		1A697AB71BC7A68000C83381 /* QRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderView.m; sourceTree = "<group>"; };
+		1A697AB81BC7A68000C83381 /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderViewController.h; sourceTree = "<group>"; };
+		1A697AB91BC7A68000C83381 /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
 		1A73283C1BB93ECC00C4F3C2 /* GestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 		1A7451B41B8D5E0400386BF3 /* HeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
 		1A7451B61B8D694200386BF3 /* DanmuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DanmuViewController.swift; sourceTree = "<group>"; };
+		1A7B28AF1BC8BE6800E717C8 /* libyueshi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyueshi.a; path = "Release-iphoneos/libyueshi.a"; sourceTree = "<group>"; };
+		1A7B28B11BC8BE7900E717C8 /* yueshi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = yueshi.h; path = "Release-iphoneos/include/yueshi/yueshi.h"; sourceTree = "<group>"; };
+		1A7B28B31BC8DD7B00E717C8 /* libyueshi_i386.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyueshi_i386.a; sourceTree = "<group>"; };
 		1A86520C1B7D92DB0032B1C7 /* TabOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
 		1A8652101B7D932B0032B1C7 /* EntendOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntendOneViewController.swift; path = ../EntendOneViewController.swift; sourceTree = "<group>"; };
 		1A8652121B7DCD6F0032B1C7 /* ExtendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +119,8 @@
 				1A44EB831BB2AAFB003B40AB /* libCardIO.a in Frameworks */,
 				1A6721681B849D9F0071E7F8 /* AVFoundation.framework in Frameworks */,
 				1A6721661B849D840071E7F8 /* AudioToolbox.framework in Frameworks */,
+				1A7B28B01BC8BE6800E717C8 /* libyueshi.a in Frameworks */,
+				1A7B28B41BC8DD7B00E717C8 /* libyueshi_i386.a in Frameworks */,
 				1A6721641B8499850071E7F8 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +163,59 @@
 			name = CycleScreen;
 			sourceTree = "<group>";
 		};
+		1A697AB21BC7A66B00C83381 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				1A697AB31BC7A68000C83381 /* QRCameraSwitchButton.h */,
+				1A697AB41BC7A68000C83381 /* QRCameraSwitchButton.m */,
+				1A697AB51BC7A68000C83381 /* QRCodeReaderDelegate.h */,
+				1A697AB61BC7A68000C83381 /* QRCodeReaderView.h */,
+				1A697AB71BC7A68000C83381 /* QRCodeReaderView.m */,
+				1A697AB81BC7A68000C83381 /* QRCodeReaderViewController.h */,
+				1A697AB91BC7A68000C83381 /* QRCodeReaderViewController.m */,
+			);
+			name = Scan;
+			sourceTree = "<group>";
+		};
+		1A7B28AC1BC8BE1200E717C8 /* Release-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				1A7B28AF1BC8BE6800E717C8 /* libyueshi.a */,
+				1A7B28AD1BC8BE3300E717C8 /* include */,
+			);
+			name = "Release-iphoneos";
+			sourceTree = "<group>";
+		};
+		1A7B28AD1BC8BE3300E717C8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1A7B28AE1BC8BE5000E717C8 /* yueshi */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		1A7B28AE1BC8BE5000E717C8 /* yueshi */ = {
+			isa = PBXGroup;
+			children = (
+				1A7B28B11BC8BE7900E717C8 /* yueshi.h */,
+			);
+			name = yueshi;
+			sourceTree = "<group>";
+		};
+		1A7B28B21BC8DD0D00E717C8 /* Debug-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				1A7B28B31BC8DD7B00E717C8 /* libyueshi_i386.a */,
+			);
+			name = "Debug-iphonesimulator";
+			sourceTree = "<group>";
+		};
 		1AE67B7A1B7B4052003B7B67 = {
 			isa = PBXGroup;
 			children = (
+				1A7B28B21BC8DD0D00E717C8 /* Debug-iphonesimulator */,
+				1A7B28AC1BC8BE1200E717C8 /* Release-iphoneos */,
+				1A697AB21BC7A66B00C83381 /* Scan */,
 				1A44EBAC1BB3983A003B40AB /* MobileCoreServices.framework */,
 				1A44EBAA1BB3982F003B40AB /* CoreMedia.framework */,
 				1A44EB801BB2AABD003B40AB /* CardIO */,
@@ -180,6 +251,8 @@
 				1A7451B61B8D694200386BF3 /* DanmuViewController.swift */,
 				1A44EB6B1BB2A0D4003B40AB /* ScanViewController.swift */,
 				1A73283C1BB93ECC00C4F3C2 /* GestureViewController.swift */,
+				1A3A8A461BC64BBB007F6D0E /* TabViewController.swift */,
+				1A3A8A441BC6483F007F6D0E /* AnythingViewController.swift */,
 				1AE67B8C1B7B4052003B7B67 /* Main.storyboard */,
 				1AE67B8F1B7B4052003B7B67 /* Images.xcassets */,
 				1AE67B911B7B4052003B7B67 /* LaunchScreen.xib */,
@@ -331,6 +404,11 @@
 				1A7451B51B8D5E0400386BF3 /* HeaderViewCell.swift in Sources */,
 				1A44EB641BB27ABD003B40AB /* GlobalFunction.swift in Sources */,
 				1A86520D1B7D92DB0032B1C7 /* TabOneViewController.swift in Sources */,
+				1A697ABC1BC7A68000C83381 /* QRCodeReaderViewController.m in Sources */,
+				1A697ABA1BC7A68000C83381 /* QRCameraSwitchButton.m in Sources */,
+				1A697ABB1BC7A68000C83381 /* QRCodeReaderView.m in Sources */,
+				1A3A8A471BC64BBB007F6D0E /* TabViewController.swift in Sources */,
+				1A3A8A451BC6483F007F6D0E /* AnythingViewController.swift in Sources */,
 				1A615F711B8ADE65001B28D2 /* CollectionViewController.swift in Sources */,
 				1AE67B891B7B4052003B7B67 /* AppDelegate.swift in Sources */,
 				1A8652111B7D932B0032B1C7 /* EntendOneViewController.swift in Sources */,
@@ -468,24 +546,23 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = DemoOPM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_NO_PIE = NO;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CardIO",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Release-iphoneos",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = OPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoOPM/DemoOPM-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VALID_ARCHS = "arm64 armv7";
+				VALID_ARCHS = "arm64 armv7 i386";
 			};
 			name = Debug;
 		};
@@ -496,23 +573,21 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = DemoOPM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_NO_PIE = NO;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CardIO",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Release-iphoneos",
 				);
 				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = OPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoOPM/DemoOPM-Bridging-Header.h";
-				VALID_ARCHS = "arm64 armv7";
+				VALID_ARCHS = "arm64 armv7 i386";
 			};
 			name = Release;
 		};

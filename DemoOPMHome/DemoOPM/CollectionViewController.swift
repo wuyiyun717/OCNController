@@ -19,6 +19,8 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
         collectionView.dataSource = self
         collectionView.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: "CollectionViewCell")
         collectionView.registerClass(HeaderViewCell.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "header")
+        let deviceID = UIDevice.currentDevice().identifierForVendor
+        print("uuid:\(deviceID)")
         //collectionView.registerClass(UICollectionReusableView.self, forCellWithReuseIdentifier: "headerView")
         
         // Do any additional setup after loading the view, typically from a nib.

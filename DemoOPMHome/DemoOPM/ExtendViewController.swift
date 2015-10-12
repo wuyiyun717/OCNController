@@ -21,6 +21,9 @@ class ExtendViewController: UIViewController, UIScrollViewDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let deviceID = UIDevice.currentDevice().identifierForVendor
+        print("uuid:\(deviceID)")
+
         print(global, terminator: "")
         global = "hello4"
         print(global, terminator: "")

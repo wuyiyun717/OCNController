@@ -8,13 +8,15 @@
 
 import UIKit
 
-class GestureViewController: UIViewController {
+class GestureViewController: UIViewController, UITabBarControllerDelegate {
     
     var oriVal = arc4random_uniform(5).hashValue
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let deviceID = UIDevice.currentDevice().identifierForVendor
+        print("uuid:\(deviceID)")
+
         let swipUp = UISwipeGestureRecognizer(target: self, action: "swipe:")
         swipUp.direction = UISwipeGestureRecognizerDirection.Up
         self.view.addGestureRecognizer(swipUp)
@@ -27,12 +29,37 @@ class GestureViewController: UIViewController {
         let swipRight = UISwipeGestureRecognizer(target: self, action: "swipe:")
         swipRight.direction = UISwipeGestureRecognizerDirection.Right
         self.view.addGestureRecognizer(swipRight)
+        
+        self.view.backgroundColor = UIColor.whiteColor()
+        
+        let navigationBar = UINavigationBar(frame: CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, 50))
+        let backButton = UIBarButtonItem(title: "返回", style: .Done, target: self, action: "GoBack")
+        let navigationItem = UINavigationItem()
+        navigationItem.setLeftBarButtonItem(backButton, animated: true)
+        navigationBar.setItems([navigationItem], animated: true)
+        //self.view.addSubview(navigationBar)
+//        let tabbar = UITabBar(frame: CGRectMake(0, UIScreen.mainScreen().bounds.height - 50, UIScreen.mainScreen().bounds.width, 50))
+//        self.view.addSubview(tabbar)
+//        let selfPage = UITabBarItem(title: "Random", image: nil, tag: 0)
+//        let anythingPage = UITabBarItem(title: "Anything", image: nil, tag: 0)
+//        tabbar.items = [selfPage, anythingPage]
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func goback(){
+        //let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        //let next:UIViewController = storyboard.instantiateViewControllerWithIdentifier("GestureView")
+
+        //let next = GestureViewController()
+        //self.presentViewController(next, animated:true, completion: nil)
+        self.popoverPresentationController
+
     }
     
     func swipe(recognizer:UISwipeGestureRecognizer){

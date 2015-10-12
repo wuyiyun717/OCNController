@@ -12,7 +12,7 @@ import MapKit
 import CoreLocation
 
 var danmuTimer = NSTimer()
-
+var contoll = yueshi()
 
 class DanmuViewController: UIViewController, UIAlertViewDelegate, CLLocationManagerDelegate{
     var danmuY:CGFloat = 50.0
@@ -28,6 +28,17 @@ class DanmuViewController: UIViewController, UIAlertViewDelegate, CLLocationMana
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //let uuidString = "000000-0000-0000-0000-000000000000"
+//        let puuid = CFUUIDCreate(nil)
+//        let uuidString = CFUUIDCreateString(nil, puuid)
+//        let result = CFStringCreateCopy(nil, uuidString) as String
+        let deviceID = UIDevice.currentDevice().identifierForVendor!.UUIDString
+        print("deviceID:\(deviceID)")
+        //let uuidString = "68753A44-4D6F-1226-9C60-0050E4C00067"
+        let uuid = NSUUID(UUIDString: deviceID)
+        print("uuid:\(uuid!.UUIDString)")
+        
         originX = self.view.center.x + UIScreen.mainScreen().applicationFrame.width
         danmu = UILabel(frame: CGRectMake(UIScreen.mainScreen().applicationFrame.width, 50, UIScreen.mainScreen().applicationFrame.width, 50))
         danmu.text = "我是弹幕......"
@@ -221,6 +232,7 @@ class DanmuViewController: UIViewController, UIAlertViewDelegate, CLLocationMana
     @IBAction func volumeChanged(sender: AnyObject) {
         if volumeStepper.value > oriVolValue {
             print("音量增大:\(volumeStepper.value)", terminator: "")
+            //contoll.sendAction("", action: , value: "up")
         }
         else{
             print("音量减小:\(volumeStepper.value)", terminator: "")
@@ -249,9 +261,11 @@ class DanmuViewController: UIViewController, UIAlertViewDelegate, CLLocationMana
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let next:UIViewController = storyboard.instantiateViewControllerWithIdentifier("GestureView") 
         //var next = EntendOneViewController()
+        //next.hidesBottomBarWhenPushed = true
         self.navigationController?.navigationItem.backBarButtonItem?.title = "返回"
         self.navigationController?.pushViewController(next, animated: true)
-        
+        //self.navigationController?.pushViewController(TabViewController(), animated: true)
+        //self.presentViewController(TabViewController(), animated:true, completion: nil)
     }
     
     @IBOutlet var volumeStepper: UIStepper!

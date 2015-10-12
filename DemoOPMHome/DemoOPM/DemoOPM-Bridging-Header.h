@@ -7,3 +7,5 @@
 //#import <CommonCrypto/CommonDigest.h>
 //#import <CommonCrypto/CommonHMAC.h>
 #import "CardIO.h"
+#import "QRCodeReaderViewController.h"
+#import "yueshi.h"
